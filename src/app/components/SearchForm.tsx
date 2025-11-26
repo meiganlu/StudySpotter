@@ -7,12 +7,10 @@ export default function SearchForm({
   value,
   onChange,
   onSubmit,
-  isLoading = false,
 }: {
   value: string;
   onChange: (v: string) => void;
   onSubmit: (e?: React.FormEvent) => void;
-  isLoading?: boolean;
 }) {
   return (
     <form onSubmit={onSubmit}>

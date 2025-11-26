@@ -27,7 +27,7 @@ export default function MapView({ spots, center }: { spots: StudySpot[]; center?
       }
     })();
     return () => { mounted = false; };
-  }, []);
+  }, [center]);
 
   // Update markers whenever the spots change
   useEffect(() => {

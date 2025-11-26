@@ -106,7 +106,7 @@ export default function HomeClient() {
             </button>
 
             <div className="flex-1">
-              <SearchForm value={searchQuery} onChange={setSearchQuery} onSubmit={handleSearch} isLoading={isLoading} />
+              <SearchForm value={searchQuery} onChange={setSearchQuery} onSubmit={handleSearch}/>
             </div>
           </div>
         </div>

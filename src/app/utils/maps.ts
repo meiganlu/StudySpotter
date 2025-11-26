@@ -18,7 +18,7 @@ export function infoWindowHtml(spot: {
 
 function escapeHtml(unsafe: string) {
   return unsafe.replace(/[&<>"'`=\/]/g, function (s) {
-    return ({
+    const escapeMap: Record<string, string> = {
       '&': '&amp;',
       '<': '&lt;',
       '>': '&gt;',
@@ -27,6 +27,7 @@ function escapeHtml(unsafe: string) {
       '/': '&#x2F;',
       '`': '&#x60;',
       '=': '&#x3D;'
-    } as any)[s];
+    };
+    return escapeMap[s] || s;
   });
 }
