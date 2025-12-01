@@ -76,7 +76,5 @@ Geocoding API
 
 ## Future Features
 
-* Provide more basic filtering options
 * Ability to have user login and authentification
-* Ability to preview place reviews
 * Ability to save study spots
