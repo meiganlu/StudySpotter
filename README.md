@@ -25,11 +25,7 @@ StudySpotter is a study spot finder to help students and others alike to find th
 - Make sure to have Google Maps API key ready
 
 ### Setup
-1. Clone the repository:
-
-```
-git clone https://github.com/yourusername/studyspotter.git
-```
+1. Clone the repository
 
 2. Install dependencies:
 
